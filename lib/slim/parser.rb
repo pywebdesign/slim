@@ -15,7 +15,6 @@ module Slim
                    :attr_delims => {
                      '(' => ')',
                      '[' => ']',
-                     '{' => '}',
                     }
 
     class SyntaxError < StandardError
